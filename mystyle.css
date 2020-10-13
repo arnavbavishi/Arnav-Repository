@@ -1,0 +1,102 @@
+
+h1{
+	
+font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.disco{
+
+   color: magenta;
+   text-align: center;
+
+}
+
+.button{
+
+  border: none;
+  color: pink;
+  background-color: black;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  backdrop-filter: blur(20px)
+
+}
+
+.center{
+
+    margin: auto;
+    position: relative;
+    height: 90vh;
+    width: 75%;
+    padding: 10px;
+}
+
+.centercont{
+
+	width: 100%
+	margin:auto;
+	padding: 10px
+}
+
+.content{
+
+	width: 100%;
+    height: auto;
+    /*position: absolute;*/
+    padding: 20px
+}
+
+.padding{
+
+	padding: 20px
+}
+
+.divback{
+
+background-color: black;
+
+
+}
+
+
+.box {
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  border-radius: 30px;
+  /*font-family: sans-serif;*/
+  /*text-align: center;*/
+  line-height: 1; 
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);  
+  max-width: 100%;
+  /*max-height: 100%;*/
+  padding: 20px;
+  /*height: 1500px;*/
+}
+
+/*.blur{
+	background-size:cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
+}
+}*/
+
+/*a {
+
+color: #d7593a;
+
+}*/
+
+body {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+	background-color: black;
+    padding: 100px;
+
+}
