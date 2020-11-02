@@ -27,14 +27,14 @@ function draw(){
             let col = capture.get(i,j) 
             
             if (random() > 0.9){ 
-            fill(col) 
-            rect(i,j,spacing,i) 
+                fill(col) 
+                rect(i,j,spacing,i) 
                 
             }
             
 
         }
-    
+        
     } 
 
 }
