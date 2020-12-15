@@ -4,14 +4,19 @@ let predictions = [];
 let mic
 let myVoxell
 
+function initSound(){
+	mic = new p5.AudioIn();
+	mic.start();
+
+
+}
 
 function setup() {
 	createCanvas(640, 480, WEBGL);
-	mic = new p5.AudioIn()
-	mic.start()
+	
 	video = createCapture(VIDEO);
 	video.size(width, height);
-	// initSound()
+	initSound()
 
 	facemesh = ml5.facemesh(video, modelReady);
 
