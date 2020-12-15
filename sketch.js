@@ -36,7 +36,7 @@ function modelReady() {
 
 function draw() {
 	// image(video, 0, 0, width, height);
-	background(255)
+	background(0)
 	// We can call both functions to draw all keypoints
 	
 	let vol = mic.getLevel()
