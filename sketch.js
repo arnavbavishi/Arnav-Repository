@@ -13,7 +13,7 @@ function initSound(){
 
 function setup() {
 	createCanvas(640, 480, WEBGL);
-	
+	// canvas.parent('p5container')
 	video = createCapture(VIDEO);
 	video.size(width, height);
 	initSound()
