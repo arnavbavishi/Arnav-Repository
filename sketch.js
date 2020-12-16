@@ -1,5 +1,3 @@
-
-
 let facemesh;
 let video;
 let predictions = [];
@@ -16,8 +14,8 @@ function setup() {
   facemesh.on("predict", results => {
     predictions = results;
   });
-
-  // Hide the video element, and just show the canvas
+background (0);
+	// Hide the video element, and just show the canvas
   video.hide();
 }
 
@@ -26,8 +24,9 @@ function modelReady() {
 }
 
 function draw() {
-  image(video, 0, 0, width, height);
-
+	background ("#00000030");
+  // image(video, 0, 0, width, height);
+// background("#00000030")
   // We can call both functions to draw all keypoints
   drawKeypoints();
 }
@@ -41,11 +40,14 @@ function drawKeypoints() {
     for (let j = 0; j < keypoints.length; j += 1) {
       const [x, y] = keypoints[j];
 
-      fill(0, 255, 0);
+      fill(255, 0, 0);
+			noStroke();
       ellipse(x, y, 5, 5);
     }
   }
 }
+
+
 
 
 
